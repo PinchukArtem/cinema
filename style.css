@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3; /* Світліший фон */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(90deg, #007bff, #0056b3); /* Градієнт для заголовка */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s; /* Анімація при наведенні */
+}
+
+header nav a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Світліший фон при наведенні */
+}
+
+.container {
+    max-width: 900px; /* Збільшена ширина контейнера */
+    margin: 20px auto;
+    padding: 30px; /* Більше відступів */
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Згладжені кути */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #007bff; /* Колір заголовків */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Збільшені відступи */
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f4;
+    color: #007bff; /* Колір заголовків таблиці */
+}
+
+a.btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+a.btn:hover {
+    background: #0056b3; /* Темніший фон при наведенні */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Відступ зверху */
+}
